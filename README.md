@@ -25,7 +25,7 @@ CC's After Hours project on how to create custom sliders and use slider values f
 
 ### ColorsViewController:
 1. Create 2 properties to save your 2 colors.
-2. Create outlets for your swatchSquare, sliders, and 2 color buttons.
+2. Create outlets for your `swatchSquare` imageView, sliders, and 2 color buttons.
 3. Create actions for red, green, and blue values changed. 
 ⋅⋅* Add `updateViews` function inside each action.
 4. Create `updateViews` function. 
