@@ -11,7 +11,7 @@ CC's After Hours project on how to create custom sliders and use slider values f
 ### SliderViewController:
 1. Create outlets for the slider and `valueLabel`
 2. Create an action for the sliderValue and make it a class of `CustomSlider`
-3. Create another class at the end of this file and call it `CustomSlider`. 
+3. Create a class at the end of this file and call it `CustomSlider`. 
 4. Make the `CustomSlider` of type `UISlider` and insert this function:
 ```override func trackRect(forBounds bounds: CGRect) -> CGRect {
         let point = CGPoint(x: bounds.minX, y: bounds.midY)
