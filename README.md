@@ -61,7 +61,8 @@ CC's After Hours project on how to create custom sliders and use slider values f
 1. Click on the "Check Me Out" button. 
 2. A checkboard with your saved Color 1 and Color 2 colors should appear.
 3. Go back and create a new swatch color, resave, and try the "Check Me Out" button again. Pretty neat filter, huh? 
-    [This Core Image filter uses a CIVector object to "draw" the checkboard pattern with the 2 input colors.] (https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html#//apple_ref/doc/filter/ci/CICheckerboardGenerator)
+   This Core Image filter uses a CIVector object to "draw" the checkboard pattern with the 2 input colors.
+   More infor [here](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html#//apple_ref/doc/filter/ci/CICheckerboardGenerator).
 
 ------
 ## Solution Code:
