@@ -13,7 +13,8 @@ CC's After Hours project on how to create custom sliders and use slider values f
 2. Create an action for the sliderValue and make it a class of `CustomSlider`
 3. Create a class at the end of this file and call it `CustomSlider`. 
 4. Make the `CustomSlider` of type `UISlider` and insert this function:
-```override func trackRect(forBounds bounds: CGRect) -> CGRect {
+```
+    override func trackRect(forBounds bounds: CGRect) -> CGRect {
         let point = CGPoint(x: bounds.minX, y: bounds.midY)
         return CGRect(origin: point, size: CGSize(width: bounds.width, height: 20)) // height changes the height of the slider
     }
