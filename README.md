@@ -66,4 +66,4 @@ CC's After Hours project on how to create custom sliders and use slider values f
 
 ------
 ## Solution Code:
-Please visit this [repo](https://github.com/ladybeitel). 
+Please visit this [repo](https://github.com/ladybeitel/CC-AfterHours-CustomSliders-SolutionCode). 
